@@ -1,0 +1,7 @@
+[general]
+name=Structural Geology Calculator
+description=A field tool for structural geology calculations and stereonet plotting.
+about=This plugin calculates intersections, backtilting, apparent dip, density plots, simple paleostress axes for faults, and generates equal-area Schmidt stereonets for planes, lines, and faults with shear sense. Designed for Structural Geology students at Utrecht University.
+version=1.0
+qgisMinimumVersion=3.0
+author=Liviu Matenco
