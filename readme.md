@@ -5,7 +5,7 @@
 **Version:** 1.0  
 
 This plugin has been created for Structural Geology students at Utrecht University to assist with field measurements and calculations within QField.  
-A testing dataset in QField/QGIS can be found in the files associated with the Manual for building a digital field mapping system for structural geology using Qfield for QGIS that can be found here:  
+A testing dataset in QField/QGIS can be found in the files associated with the `Manual for building a digital field mapping system for structural geology using Qfield for QGIS` that can be found here:  
 https://github.com/liviumatenco/Qfield-digital-field-mapping-structural-geology/
 Download and unzip `UU_GEO_fieldwork.zip`
 
