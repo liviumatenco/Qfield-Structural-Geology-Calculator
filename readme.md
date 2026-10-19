@@ -9,6 +9,9 @@ A testing dataset in QField/QGIS can be found in the files associated with the `
 https://github.com/liviumatenco/Qfield-digital-field-mapping-structural-geology/
 Download and unzip `UU_GEO_fieldwork.zip`
 
+## Installation
+Qfield -> Settings -> Manage plugins -> either use the link of the main github zip file, or the QR-code
+
 ## Toolbar & View Modes
 
 The plugin adds a dedicated button to your QField toolbar. You can use this button to control which measurements are included in your stereonet plots and calculations:
