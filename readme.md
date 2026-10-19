@@ -64,7 +64,7 @@ When setting up your Value Map for the **Type** field, the following values are 
 | **4** | Apparent Dip | Manual | Calculates the apparent dip of a geological plane as it would appear in a vertical cross-section. |
 | **5** | Best-Fit Plane | Manual | Uses a Pi-Diagram method to calculate the best-fit plane and fold axis from multiple measurements. |
 | **6** | Structural Density | Layer Data | Generates a contoured density plot for structural data to identify dominant orientations. |
-| **7** | Paleostress Inversion | Layer Data | Calculates individual conjugate stresses and the Eigenvector Average ($\sigma_1$, $\sigma_2$, $\sigma_3$) for fault data. |
+| **7** | Paleostress | Layer Data | Calculates individual conjugate stresses and the Eigenvector Average ($\sigma_1$, $\sigma_2$, $\sigma_3$) for fault data. |
 
 ## Troubleshooting
 
