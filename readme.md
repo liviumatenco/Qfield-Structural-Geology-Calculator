@@ -10,7 +10,7 @@ https://github.com/liviumatenco/Qfield-digital-field-mapping-structural-geology/
 Download and unzip `UU_GEO_fieldwork.zip`
 
 ## Installation
-Qfield -> Settings -> Manage plugins -> either use the link of the main github zip file, or the QR-code:
+Qfield -> Settings -> Manage plugins -> either use the link of the main github zip file, or use this QR-code:
 <img src="qr-code.png" alt="QR Code" width="300">
 
 ## Toolbar & View Modes
