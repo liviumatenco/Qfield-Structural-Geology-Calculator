@@ -11,7 +11,9 @@ Download and unzip `UU_GEO_fieldwork.zip`
 
 ## Installation
 Qfield -> Settings -> Manage plugins -> either use the link of the main github zip file, or use this QR-code:
-<img src="qr-code.png" alt="QR Code" width="300">
+<div align="center">
+  <img src="qr-code.png" alt="QR Code" width="300">
+</div>
 
 ## Toolbar & View Modes
 
