@@ -48,7 +48,7 @@ Qfield -> Settings -> Manage plugins -> either use the link of the main github z
 | **S** | Stereonet Plotting | Layer Data | Real-time Schmidt stereonet plotting with dynamic legends. |
 | **D** | Structural Density | Layer Data | Contoured density plot for dominant orientations and refolding Bingham axes. |
 | **P** | Paleostress or Strain| Layer Data | Calculates `σ1`, `σ2`, `σ3` for fault data or transpression values for shearzones. |
-| **B** | Domain Boundary Detection | Layer Data | Calculate map boundaries based on grid size and threshold vectors angle. |
+| **B** | Domain Boundary Detection | Layer Data | Calculates map boundaries based on grid size and threshold vectors angle. |
 | **1** | 2P Intersection | Manual | Calculates intersection of two planes, Riedels and fold axes. |
 | **2** | 1L, 1P Perpendicular | Manual | Line perpendicular to a given line within a plane. |
 | **3** | Backtilting | Manual | Rotates data back to a horizontal reference. |
