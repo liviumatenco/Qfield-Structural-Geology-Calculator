@@ -130,7 +130,7 @@ Item {
     property var overlayFeatureFormDrawer: iface.findItemByObjectName('overlayFeatureFormDrawer')
     property var canvas: iface.mapCanvas()
     property bool showPlane: true
-    property bool showLine: false
+    property bool showLine: true
     // TAB S (STEREONET) PROPERTIES
     property var allTypes: []
     property var typeColors: ({})
@@ -302,7 +302,6 @@ Item {
                 id: buttonCanvas
                 width: 32; height: 32
                 anchors.centerIn: parent
-                
                 Connections {
                     target: plugin
                     function onExtentOnlyChanged() { buttonCanvas.requestPaint() }
@@ -469,7 +468,7 @@ Item {
                             Row { width: parent.width; spacing: 10; anchors.horizontalCenter: parent.horizontalCenter
                                 Item { width: 80; height: 40
                                     CheckBox { text: "Plane"; checked: plugin.showPlane; anchors.verticalCenter: parent.verticalCenter
-                                        onClicked: { plugin.showPlane = true; plugin.showLine = false }
+                                        onClicked: { plugin.showPlane = checked }
                                         Component.onCompleted: { plugin.styleCheckBox(this) }
                                     }
                                 }
@@ -483,7 +482,7 @@ Item {
                             Row { width: parent.width; spacing: 10; anchors.horizontalCenter: parent.horizontalCenter
                                 Item { width: 80; height: 40
                                     CheckBox { text: "Line"; checked: plugin.showLine; anchors.verticalCenter: parent.verticalCenter
-                                        onClicked: { plugin.showLine = true; plugin.showPlane = false }
+                                        onClicked: { plugin.showLine = checked }
                                         Component.onCompleted: { plugin.styleCheckBox(this) }
                                     }
                                 }
