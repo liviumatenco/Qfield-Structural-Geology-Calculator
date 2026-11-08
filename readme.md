@@ -49,6 +49,7 @@ Qfield -> Settings -> Manage plugins -> either use the link of the main github z
 *Note: Tabs S, D, and P automatically pull data from your active QField layer.*
 | Tab | Name | Input Type | Description |
 | :--- | :--- | :--- | :--- |
+| **C** | Geological compass | Sensors | Digital measurements of planes and lines with mobile devices. |
 | **S** | Stereonet Plotting | Layer Data | Real-time Schmidt stereonet plotting with dynamic legends. |
 | **D** | Structural Density | Layer Data | Contoured density plot for dominant orientations and refolding Bingham axes. |
 | **P** | Paleostress or Strain| Layer Data | Calculates `σ1`, `σ2`, `σ3` for fault data or transpression values for shearzones. |
