@@ -16,8 +16,7 @@
  * New in Version 2.3
  * Added Tab C (default) as a digital Geological Compass with planes and lines measurements
  *  with compass and accelerometer support. The core calculation and layout are modified from 
- *  the work of Mark Jessel and J.-F. Moyen. Only one type of measurements (plane or line) 
- *  can be sent in the active layer at one time.
+ *  the work of Mark Jessel and J.-F. Moyen.
  * Added Kamb contours in Tab D and Bingham representation changed to always show the refolding
  *  axial plane.
  *  
