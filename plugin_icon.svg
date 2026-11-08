@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="16" fill="#2196F3"/>
+  
+  <!-- Top Shear Line (Left to Right) -->
+  <path d="M 4 10 L 28 10" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 22 5 L 28 10" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Middle Dashed Line -->
+  <path d="M 6 16 L 26 16" stroke="white" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Bottom Shear Line (Right to Left) -->
+  <path d="M 4 22 L 28 22" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 10 27 L 4 22" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>
