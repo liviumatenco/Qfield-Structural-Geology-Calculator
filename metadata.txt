@@ -1,0 +1,7 @@
+[general]
+name=Qfield Structural Geology Calculator
+description=Field tool for structural geology and stereonets
+author=Liviu Matenco
+icon=plugin_icon.svg
+version=2.3
+homepage=https://github.com/liviumatenco/Qfield-digital-field-mapping-structural-geology/
