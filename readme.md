@@ -18,7 +18,7 @@ Qfield -> Settings -> Manage plugins -> either use the link of the main github z
 </div>
 
 ## What's New in Version 2.3
-* **Digital Geological Compass:** Added Tab C (default) as a Digital Geological Compass with planes and lines measurements with compass and accelerometer support. The core calculation and layout are modified from the work of Mark Jessel and J.-F. Moyen. Only one type of measurements (plane or line) can be sent in the active layer at one time.
+* **Digital Geological Compass:** Added Tab C (default) as a Digital Geological Compass with planes and lines measurements with compass and accelerometer support. The core calculation and layout are modified from the work of Mark Jessel and J.-F. Moyen.
 * **Tab D changes:** Added Kamb contours in Tab D and Bingham representation changed to always show the refolding axial plane.
   
 ## What's New in Version 2.2
