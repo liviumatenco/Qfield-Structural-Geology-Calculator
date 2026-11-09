@@ -323,7 +323,7 @@ if (plugin.tabdHasMax) {
 ### 1. Conjugate Stress Calculation
 When quickly analyzing faults in the field, we want to determine the orientation of the principal stress axes ($\sigma_1, \sigma_2, \sigma_3$) that caused the movement. 
 
-**Important note:** The plugin takes a very imple approach to derive individual axes and an average. There is no point of having a full paleostress inversion on a smartphone, which should be done on a normal computer. We recommend WinTensor: https://damiendelvaux.be/Tensor/WinTensor/win-tensor.html
+**Important note:** The plugin takes a very simple approach to derive individual axes and an average. There is no point of having a full paleostress inversion on a smartphone, which should be done on a normal computer. We recommend WinTensor: https://damiendelvaux.be/Tensor/WinTensor/win-tensor.html
 
 The plugin calculates these for each individual fault by assuming a standard angle of internal friction ($\phi = 30^\circ$). Before calculating the stress axes, the plugin mathematically forces the lineation to lie perfectly on the fault plane. It does this by taking the measured trend and calculating the exact plunge required for that vector to intersect the fault plane.
 ```javascript
