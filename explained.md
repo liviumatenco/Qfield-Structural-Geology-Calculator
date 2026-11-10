@@ -405,8 +405,7 @@ For shear zones, the plugin calculates the angle of convergence ($\alpha$) and t
 *   **$W_k = 0$:** Pure shear (coaxial).
 *   **$W_k = 1$:** Simple shear (non-coaxial).
 
-**Methodological Note: 3D vs. Horizontal Plane Approach**
-Classical transpression models often evaluate the deformation by projecting the strain onto a 2D horizontal plane (e.g., Fossen and Tipoff, 1998). Instead of relying on a 2D horizontal projection, our plugin calculates the angle of convergence ($\alpha$) using the **full 3D orientation vectors** of the fault plane and the slip lineation. This is achieved by taking the dot product of the 3D normal vector ($n$) and the 3D slip vector ($slip$). This provides a more accurate representation of the true strain, particularly for steeply dipping or complexly oriented shear zones:
+**Methodological Note: 3D vs. Horizontal Plane Approach:** Classical transpression models often evaluate the deformation by projecting the strain onto a 2D horizontal plane (e.g., Fossen and Tikoff, 1998). Instead of relying on a 2D horizontal projection, our plugin calculates the angle of convergence ($\alpha$) using the **full 3D orientation vectors** of the fault plane and the slip lineation. This is achieved by taking the dot product of the 3D normal vector ($n$) and the 3D slip vector ($slip$). This provides a more accurate representation of the true strain, particularly for steeply dipping or complexly oriented shear zones:
  
 ```javascript
 // Calculate the true 3D convergence angle (alpha) using full vectors
