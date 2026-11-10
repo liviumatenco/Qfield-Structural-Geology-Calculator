@@ -402,16 +402,19 @@ for(var iter=0; iter<50; iter++) {
 ### 3. Transpression and Kinematic Vorticity
 For shear zones, the plugin calculates the angle of convergence ($\alpha$) and the Kinematic Vorticity number ($W_k$). This helps determine whether the deformation was purely coaxial (flattening) or non-coaxial (simple shear).
 
-**Note: 3D vs. Horizontal Plane Approach:** Classical transpression models often evaluate the deformation by projecting the strain onto a 2D horizontal plane and compare with the strike (e.g., Fossen and Tipoff, 1998). Our approach is different, we use 3D vectors in this comparison. 
-
 *   **$W_k = 0$:** Pure shear (coaxial).
 *   **$W_k = 1$:** Simple shear (non-coaxial).
 
+**Methodological Note: 3D vs. Horizontal Plane Approach**
+Classical transpression models often evaluate the deformation by projecting the strain onto a 2D horizontal plane (e.g., Fossen and Tipoff, 1998). Instead of relying on a 2D horizontal projection, our plugin calculates the angle of convergence ($\alpha$) using the **full 3D orientation vectors** of the fault plane and the slip lineation. This is achieved by taking the dot product of the 3D normal vector ($n$) and the 3D slip vector ($slip$). This provides a more accurate representation of the true strain, particularly for steeply dipping or complexly oriented shear zones:
+ 
 ```javascript
 // Calculate the true 3D convergence angle (alpha) using full vectors
 var dot = Math.abs(dotProduct(n, slip));
 var alphaRad = Math.asin(dot); 
-
+```
+ 
+```javascript
 // Calculate Kinematic Vorticity (Wk)
 var finalRad = plugin.tabpAlpha * Math.PI / 180;
 plugin.tabpWk = Math.cos(finalRad) / (1 + Math.sin(finalRad));
