@@ -336,7 +336,7 @@ if (plugin.tabdHasMax) {
   
 ## Tab P: Paleostress Inversion
 
-### 1. Conjugate Stress Calculation
+### 1. Paleostress Calculation
 When quickly analyzing faults in the field, we want to determine the orientation of the principal stress axes ($\sigma_1, \sigma_2, \sigma_3$) that caused the movement. 
 
 **Important note:** The plugin takes a very simple approach to derive individual axes and an average. There is no point of having a full paleostress inversion on a smartphone, which should be done on a normal computer. We recommend WinTensor: https://damiendelvaux.be/Tensor/WinTensor/win-tensor.html
