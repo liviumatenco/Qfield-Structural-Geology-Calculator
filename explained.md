@@ -137,13 +137,6 @@ dotProduct = Math.max(-1.0, Math.min(1.0, Math.abs(dotProduct)));
 plugin.currentError = Math.asin(dotProduct) * 180 / Math.PI;
 ```  
   
-#### 6. UI Implementation
-To display this error on the screen, the UI only reveals the value when both the plane and line checkboxes are selected.
-
-```javascript
-Column { width: 60; visible: plugin.showPlane && plugin.showLine; Text { text: "Error"; font.pixelSize: 11; color: "#D32F2F" } Text { text: Math.round(plugin.currentError) + "°"; font.pixelSize: 18; font.bold: true; color: "#D32F2F" } }
-```  
-
 ## Tab S: Stereonet Plotting
 
 ### 1. Equal-Area Projection (Lambert)
