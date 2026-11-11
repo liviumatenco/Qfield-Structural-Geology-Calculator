@@ -127,11 +127,7 @@ plugin.currentError = Math.asin(dotProduct) * 180 / Math.PI;
 To display this error on the screen, the UI only reveals the value when both the plane and line checkboxes are selected.
 
 ```javascript
-    Row { spacing: 10; visible: plugin.showLine; anchors.verticalCenter: parent.verticalCenter
-        Column { width: 60; Text { text: "Trend"; font.pixelSize: 11 } Text { text: Math.round(plugin.currentTrend); font.pixelSize: 18; font.bold: true } }
-        Column { width: 60; Text { text: "Plunge"; font.pixelSize: 11 } Text { text: Math.round(plugin.currentPlunge); font.pixelSize: 18; font.bold: true } }
         Column { width: 60; visible: plugin.showPlane && plugin.showLine; Text { text: "Error"; font.pixelSize: 11; color: "#D32F2F" } Text { text: Math.round(plugin.currentError) + "°"; font.pixelSize: 18; font.bold: true; color: "#D32F2F" } }
-    }
 ```  
 
 ## Tab S: Stereonet Plotting
